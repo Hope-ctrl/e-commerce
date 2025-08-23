@@ -48,13 +48,13 @@ const NewIn = () => {
         >
             {
               newIN.map((image, index)=>(
-          <div className="w-[300px] h-[400px] bg-[#bcbcbc] flex flex-shrink-0 justify-center items-center overflow-hidden" key={index}>
+          <button className="w-[300px] h-[400px] bg-[#bcbcbc] cursor-pointer flex flex-shrink-0 justify-center items-center overflow-hidden" key={index}>
                 <img
               src={image.image}
               alt=""
               className="w-full h-full object-cover"
             />
-          </div>
+          </button>
               ))
             }
           

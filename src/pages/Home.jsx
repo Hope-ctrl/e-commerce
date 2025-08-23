@@ -5,6 +5,7 @@ import NewDrop from "../components/sections/NewDrop";
 import NewIn from "../components/sections/NewIn";
 import Products from "../components/sections/Collections";
 import { useEffect, useState } from "react";
+import Checkout from "../components/CheckOut";
 
 const Home = ()=>{
 
@@ -30,6 +31,7 @@ const Home = ()=>{
             <NewDrop/>
             <Products/>
              <Footer/>
+         
         </div>
     )
 }
